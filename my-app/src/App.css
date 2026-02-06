@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+    font-family: "Poppins", sans-serif;
+    /* font-weight: 500; */
+    font-style: normal;
+    padding:0px;
+}
+
+:root{
+    --red:#D01C28;
+    --gray:#5A5959;
+    --black:#000000;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+nav{
+    height:72px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    gap:24px;
+    list-style:none;
+    
+}
+
+nav button{
+    all:unset;
+    height:31px;
+    width:75px;
+    background: var(--red);
+    color:#fff;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-sec{
+    width:1125px;
+    height:calc(100vh-72px);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+
+.hcontent h1{
+    font-weight: 800px;
+    font-size:108px;
+    line-height: 102px;
+}
+
+.hcontent p{
+    font-weight: 600px;
+    font-size:16px;
+    line-height: 100%;
+    color: var(--gray);
+}
+.hbtn{
+    width: 100%;
+}
+.hbtn button{
+    border: none;
+    width: 150px;
+    height: 41px;
+    margin: 20px;
+    background-color: var(--red);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.avilable img{ 
+    margin: 10px;
+}

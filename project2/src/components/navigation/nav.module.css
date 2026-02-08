@@ -1,0 +1,12 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    gap:20px;
+}

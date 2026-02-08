@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.b_botn{
+    border: none;
+    outline: none;
+    background-color: var(--black);
+    color: #ffff;
+    width:210px;
+    height:38px;
+    border-radius:5px;
+    font-weight: 600;
+    font-size:16px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+}
+
+.bigbtn{
+    /* border: none; */
+    outline: none;
+    background-color:#ffff;
+    color:var(--black);
+    width:440px;
+    height:38px;
+    border-radius:5px;
+    font-weight: 600;
+    font-size:16px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+    /* margin-top: 20px; */
+}
+
+
